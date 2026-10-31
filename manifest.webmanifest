@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "My Chilo – huishoudhulp",
+  "short_name": "My Chilo",
+  "description": "Een zachte huishoudhulp met taken, punten, timer en voor-en-nafoto’s.",
+  "lang": "nl-NL",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fffaf5",
+  "theme_color": "#f6e8ef",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
