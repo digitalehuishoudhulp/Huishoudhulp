@@ -1,21 +1,22 @@
-# My Chilo
+# My Chilo – nieuwe uploadversie (31-10-2026)
 
-Dit is de publicatieversie van My Chilo. Zet de bestanden uit deze map rechtstreeks in de hoofdmap van de GitHub-repository die aan Netlify gekoppeld wordt.
+Dit ZIP-bestand bevat de volledige statische app. De bestanden staan direct in de hoofdmap van de ZIP.
 
-## Aanwezig
+## Uploaden naar GitHub / Netlify
+1. Pak dit ZIP-bestand uit.
+2. Upload de bestanden uit deze map rechtstreeks naar de hoofdmap (root) van je GitHub-repository.
+3. Controleer dat `index.html`, `manifest.webmanifest`, `service-worker.js` en de drie icon-bestanden direct in de repository-root staan.
+4. Netlify kan de repository daarna als statische site publiceren. Build command: leeg. Publish directory: `.` (repository-root).
+
+## Inbegrepen functies
 - Dagelijkse en weektaken met punten en voortgang
 - Eigen taken toevoegen en verwijderen
 - 5-minutentimer met pauze en reset
-- Voor- en nafoto’s per opruimproject
-- Spotify-link voor opruimmuziek (muziek start niet automatisch)
+- Voor- en nafoto's per opruimproject
+- Spotify-link voor opruimmuziek
 - App delen via de deelknop
-- Gegevens lokaal opslaan in de browser
-- PWA-manifest, beginschermicoon en service worker voor offline openen na de eerste online laadbeurt
+- Lokale opslag in de browser
+- PWA-manifest, beginschermiconen en service worker
 
-## Belangrijke grenzen
-- Taken, punten en foto’s worden lokaal op het apparaat/de browser opgeslagen; er is nog geen account- of cloudsynchronisatie tussen apparaten.
-- Er zijn nog geen geplande pushmeldingen. De timer kan een trilling proberen te geven wanneer de browser dit ondersteunt.
-- De Spotify-link opent Spotify; de app speelt geen muziek zelfstandig af.
-
-## Netlify
-Gebruik de repository-root als publicatiemap. Er is geen build command nodig; dit is een statische HTML-app.
+## Let op
+Taken, punten en foto's worden lokaal op het apparaat/de browser opgeslagen. Er is nog geen account- of cloudsynchronisatie tussen apparaten. Spotify opent via een link; muziek start niet automatisch.
